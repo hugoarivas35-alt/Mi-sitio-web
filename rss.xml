@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>BMW - Proyecto Académico de Hugo Aguilar</title>
+    <link>https://hugoarivas35-alt.github.io/Mi-sitio-web/</link>
+    <description>Canal RSS con las últimas novedades sobre la historia, tecnología y modelos de BMW.</description>
+    <language>es</language>
+
+    <item>
+      <title>La Revolución de la Movilidad Eléctrica: Gama BMW i</title>
+      <link>https://hugoarivas35-alt.github.io/Mi-sitio-web/blog.html</link>
+      <guid>https://hugoarivas35-alt.github.io/Mi-sitio-web/blog.html</guid>
+      <pubDate>Wed, 05 Nov 2026 10:00:00 +0100</pubDate>
+      <description>Artículo divulgativo sobre los avances en sostenibilidad y motores eléctricos de la firma.</description>
+    </item>
+
+    <item>
+      <title>Especificaciones Técnicas y Comparativa de Modelos</title>
+      <link>https://hugoarivas35-alt.github.io/Mi-sitio-web/tabla.html</link>
+      <guid>https://hugoarivas35-alt.github.io/Mi-sitio-web/tabla.html</guid>
+      <pubDate>Thu, 06 Nov 2026 12:00:00 +0100</pubDate>
+      <description>Tabla comparativa con datos mecánicos, potencias y tiempos de aceleración.</description>
+    </item>
+
+    <item>
+      <title>Galería Multimedia y Sede Central en Múnich</title>
+      <link>https://hugoarivas35-alt.github.io/Mi-sitio-web/galeria.html</link>
+      <guid>https://hugoarivas35-alt.github.io/Mi-sitio-web/galeria.html</guid>
+      <pubDate>Fri, 07 Nov 2026 16:30:00 +0100</pubDate>
+      <description>Colección de imágenes, sonido de motores, vídeos y mapa interactivo de la sede.</description>
+    </item>
+
+  </channel>
+</rss>
