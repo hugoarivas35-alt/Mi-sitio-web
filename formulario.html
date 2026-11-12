@@ -1,104 +1,104 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Formulario - BMW</title>
-</head>
-<body>
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario - BMW</title>
+    </head>
+    <body>
 
-    <header>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg" alt="Logotipo de BMW" width="80">
-        <h1>Formulario de Contacto</h1>
-        <p>Envíanos tus consultas o suscríbete a nuestro boletín oficial de novedades</p>
-    </header>
+        <header>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg" alt="Logotipo de BMW" width="80">
+            <h1>Formulario de Contacto</h1>
+            <p>Envíanos tus consultas o suscríbete a nuestro boletín oficial de novedades</p>
+        </header>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="tabla.html">Tabla</a></li>
-            <li><a href="galeria.html">Galería</a></li>
-            <li><a href="formulario.html">Formulario</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="tabla.html">Tabla</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="formulario.html">Formulario</a></li>
+            </ul>
+        </nav>
 
-    <main>
-        <section>
-            <h2>Atención al Cliente y Suscripción</h2>
-            <p>Complete el siguiente formulario estructurado para ponerse en contacto con nuestro equipo:</p>
+        <main>
+            <section>
+                <h2>Atención al Cliente y Suscripción</h2>
+                <p>Complete el siguiente formulario estructurado para ponerse en contacto con nuestro equipo:</p>
 
-            <form action="#" method="post">
-                <fieldset>
-                    <legend>Datos Personales</legend>
-                    
-                    <p>
-                        <label for="nombre">Nombre completo:</label><br>
-                        <input type="text" id="nombre" name="nombre" required placeholder="Ej. Juan Pérez">
-                    </p>
-
-                    <p>
-                        <label for="email">Correo electrónico:</label><br>
-                        <input type="email" id="email" name="email" required placeholder="usuario@dominio.com">
-                    </p>
-
-                    <p>
-                        <label for="telefono">Teléfono de contacto (opcional):</label><br>
-                        <input type="tel" id="telefono" name="telefono" placeholder="+34 600000000">
-                    </p>
-                </fieldset>
-
-                <fieldset>
-                    <legend>Preferencias de Interés</legend>
-                    
-                    <p>
-                        <label for="modelo-interes">Modelo de mayor interés:</label><br>
-                        <select id="modelo-interes" name="modelo_interes">
-                            <option value="serie3">BMW Serie 3</option>
-                            <option value="m4">BMW Gama M (Deportivos)</option>
-                            <option value="electrico">BMW i (Eléctricos)</option>
-                            <option value="suv">Gama X (SAV / SUV)</option>
-                        </select>
-                    </p>
-
-                    <p>
-                        <label>Motivo de la consulta:</label><br>
-                        <input type="radio" id="info-comercial" name="motivo" value="comercial" checked>
-                        <label for="info-comercial">Información comercial general</label><br>
+                <form action="" method="post" onsubmit="event.preventDefault(); alert('¡Formulario simulado con éxito!');">
+                    <fieldset>
+                        <legend>Datos Personales</legend>
                         
-                        <input type="radio" id="prueba-vehiculo" name="motivo" value="prueba">
-                        <label for="prueba-vehiculo">Solicitar prueba de conducción</label><br>
+                        <p>
+                            <label for="nombre">Nombre completo:</label><br>
+                            <input type="text" id="nombre" name="nombre" required placeholder="Ej. Juan Pérez">
+                        </p>
+
+                        <p>
+                            <label for="email">Correo electrónico:</label><br>
+                            <input type="email" id="email" name="email" required placeholder="usuario@dominio.com">
+                        </p>
+
+                        <p>
+                            <label for="telefono">Teléfono de contacto (opcional):</label><br>
+                            <input type="tel" id="telefono" name="telefono" placeholder="+34 600000000">
+                        </p>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Preferencias de Interés</legend>
                         
-                        <input type="radio" id="soporte-tecnico" name="motivo" value="soporte">
-                        <label for="soporte-tecnico">Soporte técnico o incidencias</label>
-                    </p>
-                </fieldset>
+                        <p>
+                            <label for="modelo-interes">Modelo de mayor interés:</label><br>
+                            <select id="modelo-interes" name="modelo_interes">
+                                <option value="serie3">BMW Serie 3</option>
+                                <option value="m4">BMW Gama M (Deportivos)</option>
+                                <option value="electrico">BMW i (Eléctricos)</option>
+                                <option value="suv">Gama X (SAV / SUV)</option>
+                            </select>
+                        </p>
 
-                <fieldset>
-                    <legend>Mensaje y Notificaciones</legend>
-                    
+                        <p>
+                            <label>Motivo de la consulta:</label><br>
+                            <input type="radio" id="info-comercial" name="motivo" value="comercial" checked>
+                            <label for="info-comercial">Información comercial general</label><br>
+                            
+                            <input type="radio" id="prueba-vehiculo" name="motivo" value="prueba">
+                            <label for="prueba-vehiculo">Solicitar prueba de conducción</label><br>
+                            
+                            <input type="radio" id="soporte-tecnico" name="motivo" value="soporte">
+                            <label for="soporte-tecnico">Soporte técnico o incidencias</label>
+                        </p>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Mensaje y Notificaciones</legend>
+                        
+                        <p>
+                            <label for="mensaje">Escriba su mensaje o consulta detallada:</label><br>
+                            <textarea id="mensaje" name="mensaje" rows="5" cols="40" placeholder="Escriba aquí los detalles de su solicitud..."></textarea>
+                        </p>
+
+                        <p>
+                            <input type="checkbox" id="suscribir" name="suscribir" value="si" checked>
+                            <label for="suscribir">Deseo recibir el boletín mensual de noticias y novedades de BMW.</label>
+                        </p>
+                    </fieldset>
+
                     <p>
-                        <label for="mensaje">Escriba su mensaje o consulta detallada:</label><br>
-                        <textarea id="mensaje" name="mensaje" rows="5" cols="40" placeholder="Escriba aquí los detalles de su solicitud..."></textarea>
+                        <button type="submit">Enviar Formulario</button>
+                        <button type="reset">Borrar Datos</button>
                     </p>
+                </form>
+            </section>
+        </main>
 
-                    <p>
-                        <input type="checkbox" id="suscribir" name="suscribir" value="si" checked>
-                        <label for="suscribir">Deseo recibir el boletín mensual de noticias y novedades de BMW.</label>
-                    </p>
-                </fieldset>
+        <footer>
+            <hr>
+            <p>Autor: Hugo Aguilar | Módulo: Lenguaje de Marcas | Año: 2026</p>
+        </footer> 
 
-                <p>
-                    <button type="submit">Enviar Formulario</button>
-                    <button type="reset">Borrar Datos</button>
-                </p>
-            </form>
-        </section>
-    </main>
-
-    <footer>
-        <hr>
-        <p>Autor: Hugo Aguilar | Módulo: Lenguaje de Marcas | Año: 2026</p>
-    </footer>
-
-</body>
-</html>
+    </body>
+    </html>
